@@ -1,7 +1,7 @@
 Chrome-Kiosk-Mode
 =================
 
-AppleScript application that will open Google Chrome in Kiosk Mode. Works for OS X 10.6, 10.7 and 10.8. Current version `1.0.1`.
+AppleScript application that will open Google Chrome in Kiosk Mode. Works for OS X 10.6, 10.7 and 10.8. Current version `1.1.0`.
 
 To-Do List
 ----------
