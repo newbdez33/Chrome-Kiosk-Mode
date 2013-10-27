@@ -7,7 +7,7 @@ Chrome-Kiosk-Mode
 
 Native OS X app that utilises AppleScriptObjC (ASOC) to launch Google Chrome in Kiosk Mode. Doesn't have much functionality aside this. Just press the Google Chrome logo to launch.  
   
-#### Contribution # 
+#### Contribution #
 - Log a [bug report](https://github.com/danijeljames/Chrome-Kiosk-Mode/issues/new)
 - Send tweet to [@danijeljames](https://twitter.com/danijeljames)
 
