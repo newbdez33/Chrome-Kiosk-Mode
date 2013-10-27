@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0CD9D01-23E0-4F5D-83F5-ABE84D161EC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chrome Kiosk Mode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65042312-194E-4291-AC7D-F3F718F2B286</key>
+		<string>https://github.com/danijeljames/Chrome-Kiosk-Mode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Chrome Kiosk Mode.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65042312-194E-4291-AC7D-F3F718F2B286</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danijeljames/Chrome-Kiosk-Mode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65042312-194E-4291-AC7D-F3F718F2B286</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65042312-194E-4291-AC7D-F3F718F2B286</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Chrome-Kiosk-Mode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

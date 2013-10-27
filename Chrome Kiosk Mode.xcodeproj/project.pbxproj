@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B94666C1181CEC190005761C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94666C0181CEC190005761C /* Cocoa.framework */; };
+		B94666C3181CEC190005761C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94666C2181CEC190005761C /* AppleScriptObjC.framework */; };
+		B94666CD181CEC190005761C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94666CB181CEC190005761C /* InfoPlist.strings */; };
+		B94666CF181CEC190005761C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94666CE181CEC190005761C /* main.m */; };
+		B94666D3181CEC190005761C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B94666D1181CEC190005761C /* Credits.rtf */; };
+		B94666D5181CEC190005761C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = B94666D4181CEC190005761C /* AppDelegate.applescript */; };
+		B94666D8181CEC190005761C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94666D6181CEC190005761C /* MainMenu.xib */; };
+		B94666DA181CEC190005761C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94666D9181CEC190005761C /* Images.xcassets */; };
+		B94666E1181CEC5D0005761C /* kiosk-google.png in Resources */ = {isa = PBXBuildFile; fileRef = B94666E0181CEC5D0005761C /* kiosk-google.png */; };
+		B94666E3181CEC8C0005761C /* kiosk-google.icns in Resources */ = {isa = PBXBuildFile; fileRef = B94666E2181CEC8C0005761C /* kiosk-google.icns */; };
+		B94666E5181CED360005761C /* app_512x512x32.png in Resources */ = {isa = PBXBuildFile; fileRef = B94666E4181CED360005761C /* app_512x512x32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B94666BD181CEC190005761C /* Chrome Kiosk Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chrome Kiosk Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94666C0181CEC190005761C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B94666C2181CEC190005761C /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		B94666C5181CEC190005761C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B94666C6181CEC190005761C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B94666C7181CEC190005761C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B94666CA181CEC190005761C /* Chrome Kiosk Mode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chrome Kiosk Mode-Info.plist"; sourceTree = "<group>"; };
+		B94666CC181CEC190005761C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B94666CE181CEC190005761C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B94666D0181CEC190005761C /* Chrome Kiosk Mode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chrome Kiosk Mode-Prefix.pch"; sourceTree = "<group>"; };
+		B94666D2181CEC190005761C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B94666D4181CEC190005761C /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		B94666D7181CEC190005761C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B94666D9181CEC190005761C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B94666E0181CEC5D0005761C /* kiosk-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kiosk-google.png"; path = "../kiosk-google.png"; sourceTree = "<group>"; };
+		B94666E2181CEC8C0005761C /* kiosk-google.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "kiosk-google.icns"; path = "../kiosk-google.icns"; sourceTree = "<group>"; };
+		B94666E4181CED360005761C /* app_512x512x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_512x512x32.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94666BA181CEC190005761C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94666C3181CEC190005761C /* AppleScriptObjC.framework in Frameworks */,
+				B94666C1181CEC190005761C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B94666B4181CEC190005761C = {
+			isa = PBXGroup;
+			children = (
+				B94666C8181CEC190005761C /* Chrome Kiosk Mode */,
+				B94666BF181CEC190005761C /* Frameworks */,
+				B94666BE181CEC190005761C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94666BE181CEC190005761C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94666BD181CEC190005761C /* Chrome Kiosk Mode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94666BF181CEC190005761C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B94666C0181CEC190005761C /* Cocoa.framework */,
+				B94666C2181CEC190005761C /* AppleScriptObjC.framework */,
+				B94666C4181CEC190005761C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B94666C4181CEC190005761C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B94666C5181CEC190005761C /* AppKit.framework */,
+				B94666C6181CEC190005761C /* CoreData.framework */,
+				B94666C7181CEC190005761C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B94666C8181CEC190005761C /* Chrome Kiosk Mode */ = {
+			isa = PBXGroup;
+			children = (
+				B94666D4181CEC190005761C /* AppDelegate.applescript */,
+				B94666D6181CEC190005761C /* MainMenu.xib */,
+				B94666D9181CEC190005761C /* Images.xcassets */,
+				B94666C9181CEC190005761C /* Supporting Files */,
+			);
+			path = "Chrome Kiosk Mode";
+			sourceTree = "<group>";
+		};
+		B94666C9181CEC190005761C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B94666E2181CEC8C0005761C /* kiosk-google.icns */,
+				B94666E0181CEC5D0005761C /* kiosk-google.png */,
+				B94666E4181CED360005761C /* app_512x512x32.png */,
+				B94666CA181CEC190005761C /* Chrome Kiosk Mode-Info.plist */,
+				B94666CB181CEC190005761C /* InfoPlist.strings */,
+				B94666CE181CEC190005761C /* main.m */,
+				B94666D0181CEC190005761C /* Chrome Kiosk Mode-Prefix.pch */,
+				B94666D1181CEC190005761C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94666BC181CEC190005761C /* Chrome Kiosk Mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94666DD181CEC190005761C /* Build configuration list for PBXNativeTarget "Chrome Kiosk Mode" */;
+			buildPhases = (
+				B94666B9181CEC190005761C /* Sources */,
+				B94666BA181CEC190005761C /* Frameworks */,
+				B94666BB181CEC190005761C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chrome Kiosk Mode";
+			productName = "Chrome Kiosk Mode";
+			productReference = B94666BD181CEC190005761C /* Chrome Kiosk Mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94666B5181CEC190005761C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Danijel James";
+			};
+			buildConfigurationList = B94666B8181CEC190005761C /* Build configuration list for PBXProject "Chrome Kiosk Mode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94666B4181CEC190005761C;
+			productRefGroup = B94666BE181CEC190005761C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94666BC181CEC190005761C /* Chrome Kiosk Mode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94666BB181CEC190005761C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94666E5181CED360005761C /* app_512x512x32.png in Resources */,
+				B94666CD181CEC190005761C /* InfoPlist.strings in Resources */,
+				B94666DA181CEC190005761C /* Images.xcassets in Resources */,
+				B94666D3181CEC190005761C /* Credits.rtf in Resources */,
+				B94666E1181CEC5D0005761C /* kiosk-google.png in Resources */,
+				B94666D8181CEC190005761C /* MainMenu.xib in Resources */,
+				B94666E3181CEC8C0005761C /* kiosk-google.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94666B9181CEC190005761C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94666D5181CEC190005761C /* AppDelegate.applescript in Sources */,
+				B94666CF181CEC190005761C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B94666CB181CEC190005761C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94666CC181CEC190005761C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B94666D1181CEC190005761C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94666D2181CEC190005761C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B94666D6181CEC190005761C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94666D7181CEC190005761C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94666DB181CEC190005761C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B94666DC181CEC190005761C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B94666DE181CEC190005761C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chrome Kiosk Mode/Chrome Kiosk Mode-Prefix.pch";
+				INFOPLIST_FILE = "Chrome Kiosk Mode/Chrome Kiosk Mode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B94666DF181CEC190005761C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chrome Kiosk Mode/Chrome Kiosk Mode-Prefix.pch";
+				INFOPLIST_FILE = "Chrome Kiosk Mode/Chrome Kiosk Mode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94666B8181CEC190005761C /* Build configuration list for PBXProject "Chrome Kiosk Mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94666DB181CEC190005761C /* Debug */,
+				B94666DC181CEC190005761C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94666DD181CEC190005761C /* Build configuration list for PBXNativeTarget "Chrome Kiosk Mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94666DE181CEC190005761C /* Debug */,
+				B94666DF181CEC190005761C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94666B5181CEC190005761C /* Project object */;
+}
