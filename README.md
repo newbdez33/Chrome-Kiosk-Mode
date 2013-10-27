@@ -15,3 +15,5 @@ Native OS X app that utilises AppleScriptObjC (ASOC) to launch Google Chrome in 
 **Download:** [`KioskChrome.dmg`](http://snipurl.com/282fva1)  
 **SHA1:** `c9e60aa5cd57da31af262406f2cf1d91f80cd7f8`  
 **MD5:** `ecbdd2be0a7129f6632d5d18f97e0f2f`
+
+![](https://github.com/danijeljames/Chrome-Kiosk-Mode/raw/master/KioskChromeDMG.png)
