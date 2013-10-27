@@ -73,10 +73,18 @@
                         <rect key="frame" x="30" y="30" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="app_512x512x32" id="KhN-Nj-qld"/>
-                        <connections>
-                            <action selector="ButtonHandlerLaunchGoogleChromeKioskMode:" target="494" id="hdW-Jg-KG2"/>
-                        </connections>
                     </imageView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ln-wC-KcG">
+                        <rect key="frame" x="129" y="191" width="123" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="roundRect" title="Round Rect Button" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bqL-hV-p4O">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="controlContent"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="ButtonHandlerLaunchGoogleChromeKioskMode:" target="494" id="siC-bK-yd4"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
         </window>
