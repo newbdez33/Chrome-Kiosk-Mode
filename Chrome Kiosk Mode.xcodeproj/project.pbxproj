@@ -331,6 +331,7 @@
 				B94666DF181CEC190005761C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
