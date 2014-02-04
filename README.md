@@ -17,3 +17,6 @@ Native OS X app that utilises AppleScriptObjC (ASOC) to launch Google Chrome in 
 **MD5:** `ecbdd2be0a7129f6632d5d18f97e0f2f`
 
 ![](https://github.com/danijeljames/Chrome-Kiosk-Mode/raw/master/KioskChromeDMG.png)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/danijeljames/chrome-kiosk-mode/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
